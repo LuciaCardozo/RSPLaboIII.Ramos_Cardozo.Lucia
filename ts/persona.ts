@@ -1,7 +1,11 @@
-class Persona{
+class Persona {
     public id:number;
     public nombre:string;
     public apellido:string;
 
-    public constructor(id:number,nombre:strin)
+    public constructor(id:number,nombre:string,apellido:string) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
 }

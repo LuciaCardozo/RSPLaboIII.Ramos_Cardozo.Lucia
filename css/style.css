@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+}
+
+
+.divContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(146, 216, 221);
+    
+}
+.divContainerPrincipal{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(146, 216, 221);
+    
+}
+.divContainerPrincipal > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divBoton {
+    width: 100%;
+    height: 6%;
+    display: flex;
+    justify-content: start;
+}
+
+.divBoton > button {
+    cursor: pointer;
+    width: 5%;
+    height: 100%;
+    border: none;
+    background-color: rgb(52, 144, 230);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px 4px rgba(39, 151, 226, 0.945);
+}
+
+button:active {
+    box-shadow: inset 0px 12px 35px 0px rgba(190, 208, 223, 0.945);
+}
+
+.divFiltro {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divFiltro > label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divFiltro > input {
+    width: 10%;
+    height: 40%;
+}
+
+.divFiltro > select {
+    height: 40%;
+    width: 9%;
+}
+
+.divFiltro > button {
+    cursor: pointer;
+    height: 50%;
+    width: 10%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(55, 147, 170);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divCheck {
+    margin-top: 2rem;
+    width: 100%;
+    background-color: rgb(146, 216, 221);
+
+}
+
+.divCheck > h1,h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-flex;
+    margin-left: 0.5rem;
+}
+
+.divCheck > h1 {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.divCheck > input,hr {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.divCheck > label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 10px 0px 40px 0px rgba(255, 255, 255, 0.60);
+  }
+th{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bolder;
+font-size: 20px;
+}
+table,td {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border: 1px solid white;
+    padding: 8px;
+}
+  
+td:hover {
+    cursor: pointer;
+    color:rgb(180, 148, 88);
+}
+
+.divFormulario {
+    margin: 10px;
+    font-size: 25px; 
+    display: grid;
+}
+
+.table{
+    background-color: rgb(146, 216, 221);
+
+}
+
+.divFormulario > input {
+    border: none;
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.divAgregar {
+    width: 100%;
+}
+.btnAgregar {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(50, 146, 58);
+    margin:25px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btnEliminar {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(238, 124, 18);
+    margin:25px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#divTabla {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(146, 216, 221);
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 10px 0px 40px 0px rgba(255, 255, 255, 0.60);
+}
+  
+table,th,td {
+border: none;
+padding: 8px;
+}
+
+td:hover {
+cursor: pointer;
+color:rgb(180, 148, 88);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(99, 183, 189);
+}
+
+.btnLimpiarLS{
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    margin:25px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.filtroEdad{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.filtroEdad>button{
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 50px;
+    font-size: 25px;
+    width: 10%;
+    height: 50%;
+    background-color: rgb(20, 141, 93);
+    font-weight: bolder;
+    color: white;
+}
+.filtroEdad>select{
+    background-color: rgb(18, 84, 87);;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: rgb(190, 187, 187);
+    margin-left: 50px;
+    font-size: 25px;
+}
+.filtroEdad>label{
+    margin-left: 50px;
+    color: rgb(18, 84, 87);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.filtroEdad>input{
+    border-radius: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+    width: 20%;
+    height: 50%;
+}
+
+.btnLimpiar{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(230, 233, 36);
+    margin:25px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
