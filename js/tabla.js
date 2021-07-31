@@ -76,10 +76,10 @@ function cuerpo(lista) {
                 if (key == e) {
                     var td = document.createElement('td');
                     var txt = document.createTextNode(element[key]);
-                    if (element[key] == "0") {
+                    if (element[key] == "0" && key != "id") {
                         txt = document.createTextNode("Femenino");
                     }
-                    if (element[key] == "1") {
+                    if (element[key] == "1" && key != "id") {
                         txt = document.createTextNode("Masculino");
                     }
                     td.appendChild(txt);
